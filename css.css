@@ -1,0 +1,294 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+nav{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  padding: 10px 100px;
+    box-sizing: border-box;
+  transition: .3s;
+}
+nav.black{
+  background: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  padding: 10px 100px;
+}
+nav .logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  transition: .3s;
+}
+nav.black .logo {
+  color: #fff;
+}
+nav ul{
+  list-style:none;
+  float:right;
+  margin: 0;
+  padding:0;
+  display:flex;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li:hover ul{
+  display: block;
+  padding-top: 4px;
+}
+nav ul ul{
+  display: none;
+  position: absolute;
+  background-color: #151515;
+  opacity: 0.8;
+}
+
+nav ul ul li a{
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+nav ul ul li{
+  display: block;
+
+}
+nav ul li a{
+  line-height: 80px;
+  color: #151515;
+  padding: 14px 20px;
+  text-decoration:none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+nav.black ul li a{
+  color: #fff;
+}
+nav ul li a:focus{
+  outline:none;
+}
+nav ul li a:hover{
+  background-color: #CC6600;
+  border-radius: 6px;
+}
+nav ul li a.active{
+  background: #E2472F;
+  color: #fff;
+  border-radius: 6px;
+  margin-left: 4px
+}
+section.sec1{
+  width: 100%;
+  height: 100vh;
+  background-image: url(http://guyanachronicle.com/wp-content/uploads/2015/04/business-696x522.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+section.sec1 h1{
+  padding-top: 300px;
+   text-align: center;
+   font-size: 50px;
+   font-family:monospace;
+   font-weight:bolder;
+   color: brown;
+}
+section.sec1 h2{
+   text-align: center;
+   font-size: 30px;
+   font-family:cursive;
+
+   color: black;
+}
+section.sec2{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/music.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section.sec3{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+section.sec3 h1{
+  padding-top: 300px;
+   text-align: center;
+   font-size: 50px;
+   font-family:monospace;
+   font-weight:bolder;
+   color: brown;
+}
+section.sec3 h2{
+   text-align: center;
+   font-size: 30px;
+   font-family:cursive;
+
+   color: white;
+}
+section.sec4{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section.sec4 h1{
+  padding-top: 300px;
+   text-align: center;
+   font-size: 50px;
+   font-family:monospace;
+   font-weight:bolder;
+   color: brown;
+}
+section.sec4 h2{
+   text-align: center;
+   font-size: 30px;
+   font-family:cursive;
+
+   color: white;
+}
+section.sec5{
+  width: 100%;
+  height: 100vh;
+  background:url(../img/10.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section.sec5 h1{
+  padding-top: 300px;
+   text-align: center;
+   font-size: 50px;
+   font-family:monospace;
+   font-weight:bolder;
+   color: brown;
+}
+section.sec5 h2{
+   text-align: center;
+   font-size: 30px;
+   font-family:cursive;
+
+   color: white;
+}
+.content{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ .content p{
+    width:1080px;
+    margin: 30px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+ }
+ section.content .about {
+   padding-left: 50px;
+   padding-right: 50px;
+   transition: 5s;
+
+ }
+ section.content .about p{
+   color: black;
+ }
+
+/*section .content .about:hover{
+  transform: scale(1.2);
+}*/
+section.content .about h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family:sans-serif;
+}
+section.content .about p{
+  text-align: center;
+}
+
+.recent{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://us.res.keymedia.com/files/image/iStock-handshake-business-deal-partnership-635974362.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+section.portfolio{
+  width: 100%;
+  height: 90vh;
+  background-image: url(../img/edu2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*
+===================================
+the beginning of the team section
+==================================
+*/
+
+img{
+  border-radius: 50%;
+  margin: 10px;
+}
+section.team h2{
+  text-align: center;
+  font-weight: bold;
+  font-style:normal;
+}
+.profile-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin:12px;
+    text-align: center;
+    float: left;
+
+}
+.profile-card:hover{
+  transform: scale(1.2);
+  transition-duration: 3s;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+section .team .profile-card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.8;
+}
+section .team{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
